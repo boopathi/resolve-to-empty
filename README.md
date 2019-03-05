@@ -17,3 +17,13 @@ yarn add resolve-to-empty
 ## Usage
 
 https://yarnpkg.com/lang/en/docs/selective-version-resolutions/
+
+## Example
+
+```json
+{
+  "resolutions": {
+    "annoying-dependency-you-dont-want": "https://registry.npmjs.org/resolve-to-empty/-/resolve-to-empty-1.0.0.tgz"
+  }
+}
+```
